@@ -1,0 +1,26 @@
+baseURL = "/"
+
+# This is a "one page"-website, so we do not need these kinds of pages...
+disableKinds = ["section", "taxonomy", "term", "RSS", "robotsTXT"]
+defaultContentLanguage = "en"
+theme = "hugo-scroll"
+title = "Stinger Balloons"
+
+[params]
+    copyright = "© Stinger Balloons"
+    description = "Stinger Balloons - The wow in balloon drops, flutter confetti and gender reveal events."
+
+    # This should be a square (at least 32px x 32px) png-file. logo
+    # TODO
+    favicon = "images/favicon.png"
+
+    # These "images" are used for the structured data templates. This will show up, when
+    # services like Twitter or Slack want to generate a preview of a link to your site.
+    # TODO - stinger balloon w/confetti
+    images = [] #"images/cover-image.jpg"]
+
+    title = "Stinger Balloons - The wow in balloon drops, flutter confetti and gender reveal events."
+    hidedesignbyline = true
+
+    [params.meta]
+        keywords = "gender reveal, balloon confetti, flutterfetti, flutter fetti, balloon drop, balloon detonator, balloon powder"

@@ -1,0 +1,87 @@
+<!-- A partial to be overwritten by the user.
+     Its content will appear before the closing </head>-tag -->
+
+<!-- Custom CSS via inline styles
+     You may use this template to add custom CSS to your site like so: -->
+
+<style>
+     /* Links */
+     a:hover {
+         color: #b6b84c;
+     }
+
+     /* Header Buttons on Startpage */
+     a.btn {
+         color: white;
+          background-color: #ced067;
+     }
+     a.btn:hover {
+          background-color: #b6b84c;
+     }
+
+     /* Scroll Menu on Startpage */
+     a.fn-item.active {
+          /* color: #b6b84c; */
+          color: #3A4145;
+     }
+     a.fn-item:hover {
+          color: #ced067;
+     }
+
+     /* Content / Sections */
+     .post-holder.odd {
+          background: #00539CFF; /* blue */
+          /* background: #FEE715FF; /* yellow */
+          /* background: #F0E1B9FF; /* custard */
+          /* color: #101820FF; /* black/yellow black */
+          /* color: #3A4145; /* black */
+          color: #FCF6F5FF; /* white-ish  */
+     }
+     .post-holder {
+          background: #FCF6F5FF; /* white-ish  */
+     }
+     body {
+          color: #3A4145; /* text, black color */
+     }
+
+     /* Footer */
+     .site-footer {
+          /* color: #FEE715FF; /* yellow */
+          /* color: #00539CFF; /* blue */
+          color: #FCF6F5FF; /* white-ish  */
+          background-color: #3A4145;
+     }
+</style>
+
+<!-- Custom CSS via "custom.css"-file
+     If you would rather place your custom CSS into
+     a separate file, create a "custom.css" in your
+     local "static/css"-directory. Then add a <link>-tag
+     referencing your "custom.css" like so: -->
+
+<!-- <link rel="stylesheet" href='{{ "css/custom.css" | absURL }}'> -->
+
+<!-- Custom CSS: Color Codes
+     You may checkout https://htmlcolorcodes.com/ to get those
+     weird color codes (like "#22343A") ;-). -->
+
+<!-- Custom link-tags for different icons
+     Generated via https://favicon.io/favicon-generator/ -->
+
+<link
+  rel="apple-touch-icon"
+  sizes="180x180"
+  href="{{ "images/apple-touch-icon.png" | absURL }}"
+/>
+<link
+  rel="icon"
+  type="image/png"
+  sizes="32x32"
+  href="{{ "images/favicon-32x32.png" | absURL }}"
+/>
+<link
+  rel="icon"
+  type="image/png"
+  sizes="16x16"
+  href="{{ "images/favicon-16x16.png" | absURL }}"
+/>
