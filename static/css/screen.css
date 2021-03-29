@@ -522,8 +522,9 @@ ul li {
   position: relative;
 }
 .post-holder.odd {
-  /* background: #FCF6F5FF; */
-  background: #00539CFF; /* blue */
+  /* background: #03539c; */
+  /* background: #00539CFF; /* blue */
+  background: #C8F344;
   color: white;
 }
 

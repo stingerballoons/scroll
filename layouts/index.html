@@ -55,8 +55,9 @@ html, body {
     flex-direction: column;
 }
 </style>
-<!-- <div id="videowrapper"> -->
-<header id="site-head">
+<header id="site-head" style='background: #000001'>
+  <div id="videowrapper" >
+    <div class="container">
       <div id="fullScreenDiv">
         <video id="video" role="presentation" preload="auto" playsinline="" crossorigin="anonymous" loop="" muted="" autoplay="" class="blur">
           <source src="{{ .Params.header_image }}" type="video/mp4">
@@ -68,17 +69,18 @@ html, body {
             <br>
             {{ with .Params.header_subheadline }}<h2 class="blog-description">{{ . }}</h2>{{ end }}
 
-            <!-- <i id='header-arrow' class="fa fa-angle-down"></i> -->
+            <i id='header-arrow' class="fa fa-angle-down"></i>
           </div>
         </div>
       </div>
+    </div>
+  </div>
 </header>
 <main class="content" role="main">
-
     <div class='fixed-nav'>
     </div>
     {{ range $index_val, $elem_val := $sections }}
-        <div class='post-holder'>
+    <div class='post-holder' style='background: {{.Params.header_background}}'>
             <article id='{{ anchorize .Title }}' class='post {{ if eq $index_val 0 }}first{{ else }}{{ if eq (add $index_val 1) (len $sections) }}last{{ end }}{{ end }}'>
                 <header class="post-header">
                     <h2 class="post-title">{{ .Title }}</h2>

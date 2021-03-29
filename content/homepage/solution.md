@@ -2,10 +2,12 @@
 title: ''
 weight: 6
 header_menu: true
+header_background: '#FEE9FB'
 ---
 
 {{< rawhtml >}}
 <style>
+/* FEE9FB, FFE4FA */
 html, body {
     height: 100%;
     margin: 0;
@@ -59,15 +61,18 @@ html, body {
     flex-direction: column;
 }
 </style>
+  <div id="videowrapper">
+    <div class="container">
       <div id="fullScreenDiv">
         <video id="video" role="presentation" preload="auto" playsinline="" crossorigin="anonymous" loop="" muted="" autoplay="" class="blur">
           <source src="images/production_ID_4838265.mp4" type="video/mp4">
         </video>
         <div id="videoMessage" class="styling">
           <div id="site-head-content" class="inner" style="color: white">
-            <!-- <h1 class="blog-title">Features</h1> -->
             <h1 style="font-size: 400%">Features</h1>
           </div>
         </div>
       </div>
+    </div>
+  </div>
 {{< /rawhtml >}}
