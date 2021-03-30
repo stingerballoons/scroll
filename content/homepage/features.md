@@ -5,7 +5,7 @@ header_menu: false
 ---
 
 {{< rawhtml >}}
-<p>Stinger Balloons is stuffed with so many features a <em>T-ReX MK2</em> can't even handle it.</p>
+<p>Stinger Balloons is stuffed with so many features, even a <em>T-ReX MK2</em> can't keep up with it.</p>
 <br>
 {{< /rawhtml >}}
 
