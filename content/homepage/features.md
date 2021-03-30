@@ -4,6 +4,10 @@ weight: 7
 header_menu: false
 ---
 
+{{< rawhtml >}}
+<p>Stinger Balloons is stuffed with so many features a <em>T-ReX MK2</em> can't even handle it.</p>
+{{< /rawhtml >}}
+
 ## Hi Tech {{<icon class="fa fa-robot">}}
 
 Internet of things (IoT) cloud technology with a simple, easy to use interface from your smart phone or AppleWatch.

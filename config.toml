@@ -8,11 +8,11 @@ title = "Stinger Balloons"
 
 [params]
     copyright = "© Stinger Balloons"
-    description = "Stinger Balloons - The wow in balloon drops, flutter confetti and gender reveal events."
+    description = "Stinger Balloons - The WOW in balloon drops, flutter confetti and gender reveal events."
 
     # This should be a square (at least 32px x 32px) png-file. logo
     # TODO
-    favicon = "images/favicon.png"
+    favicon = "" #images/favicon.png"
 
     # These "images" are used for the structured data templates. This will show up, when
     # services like Twitter or Slack want to generate a preview of a link to your site.
