@@ -81,7 +81,21 @@ html, body {
     <div class='fixed-nav'>
     </div>
     {{ range $index_val, $elem_val := $sections }}
-    <div class='post-holder' style='background: {{.Params.header_background}}'>
+      {{ if .Params.header_video }}
+        <div id="videowrapper">
+          <div class="container">
+            <video id="video" role="presentation" preload="auto" playsinline="" crossorigin="anonymous" loop="" muted="" autoplay="" class="blur">
+              <source src="images/production_ID_4838265.mp4" type="video/mp4">
+            </video>
+            <div id="videoMessage" class="styling">
+              <div id="site-head-content" class="inner" style="color: white">
+                <h1 style="font-size: 350%">Features</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      {{ else }}
+      <div class='post-holder' style='background: {{.Params.header_background}}'>
             <article id='{{ anchorize .Title }}' class='post {{ if eq $index_val 0 }}first{{ else }}{{ if eq (add $index_val 1) (len $sections) }}last{{ end }}{{ end }}'>
                 <header class="post-header">
                     <h2 class="post-title">{{ .Title }}</h2>
@@ -92,6 +106,7 @@ html, body {
             </article>
             <div class='post-after'></div>
         </div>
+      {{ end }}
     {{ end }}
 </main>
 {{ end }}
