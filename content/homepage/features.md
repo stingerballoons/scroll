@@ -15,7 +15,7 @@ Internet of things (IoT) cloud technology with a simple, easy to use interface f
 
 ## Affordable &nbsp;{{<icon class="fa fa-dollar-sign">}}
 
-Purchase once and use anytime for multiple events and occasions. Can you put a price on happiness?
+Purchase once and use anytime for multiple events and occasions. Can you really put a price on happiness?
 
 ## Reusable &nbsp;{{<icon class="fa fa-recycle">}}
 
@@ -23,7 +23,7 @@ Built-in, recharable battery with percentage display and a razor sharp stinger.
 
 ## AppleWatch
 
-Did I mention you can trigger the stinger from your AppleWatch?
+Did I mention you can trigger the stinger from your AppleWatch? How cool is that?
 
 ## 24hr+ Battery &nbsp;{{<icon class="fa fa-battery-full">}}
 
