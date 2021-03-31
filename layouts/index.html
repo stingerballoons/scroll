@@ -85,11 +85,11 @@ html, body {
         <div id="videowrapper">
           <div class="container">
             <video id="video" role="presentation" preload="auto" playsinline="" crossorigin="anonymous" loop="" muted="" autoplay="" class="blur">
-              <source src="images/production_ID_4838265.mp4" type="video/mp4">
+              <source src="{{.Params.header_video_file}}" type="video/mp4">
             </video>
             <div id="videoMessage" class="styling">
               <div id="site-head-content" class="inner" style="color: white; text-align:center">
-                <h1 style="font-size: 350%">Features</h1>
+                <h1 style="font-size: 350%">{{.Params.header_video_text}}</h1>
               </div>
             </div>
           </div>
