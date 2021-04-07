@@ -98,7 +98,7 @@ html, body {
       <div class='post-holder' style='background: {{.Params.header_background}}'>
             <article id='{{ anchorize .Title }}' class='post {{ if eq $index_val 0 }}first{{ else }}{{ if eq (add $index_val 1) (len $sections) }}last{{ end }}{{ end }}'>
                 <header class="post-header">
-                    <h2 class="post-title">{{ .Title }}</h2>
+                    <h2 class="post-title" style="display:none">{{ .Title }}</h2>
                 </header>
                 <section class="post-content">
                     {{ .Content }}

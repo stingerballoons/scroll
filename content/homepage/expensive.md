@@ -1,5 +1,5 @@
 ---
-title: "Expensive"
+title: ''
 weight: 3
 header_menu: false
 ---
@@ -8,4 +8,4 @@ header_menu: false
 
 Existing products can run in the hundreds of dollars and some are even single use!
 
-That's just one balloon, one event... for too much moolah.
+That's just one balloon, one event... for way too much moolah.

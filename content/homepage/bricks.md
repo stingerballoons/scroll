@@ -1,5 +1,5 @@
 ---
-title: 'Bricks'
+title: ''
 weight: 5
 header_menu: false
 ---
