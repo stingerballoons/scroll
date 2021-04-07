@@ -62,7 +62,6 @@ html, body {
       <div id="fullScreenDiv">
         <video id="video" role="presentation" preload="auto" playsinline="" crossorigin="anonymous" loop="" muted="" autoplay="" class="blur">
           <source src="{{ .Params.header_image }}" type="video/mp4">
-            <source src="{{ .Params.header_image }}" type="video/webm">
         </video>
         <div id="videoMessage" class="styling">
           <div id="site-head-content" class="inner" style="color: white">
@@ -96,15 +95,15 @@ html, body {
         </div>
       {{ else }}
       <div class='post-holder' style='background: {{.Params.header_background}}'>
-            <article id='{{ anchorize .Title }}' class='post {{ if eq $index_val 0 }}first{{ else }}{{ if eq (add $index_val 1) (len $sections) }}last{{ end }}{{ end }}'>
-                <header class="post-header">
-                    <h2 class="post-title" style="display:none">{{ .Title }}</h2>
-                </header>
-                <section class="post-content">
-                    {{ .Content }}
-                </section>
-            </article>
-            <div class='post-after'></div>
+        <article id='{{ anchorize .Title }}' class='post {{ if eq $index_val 0 }}first{{ else }}{{ if eq (add $index_val 1) (len $sections) }}last{{ end }}{{ end }}'>
+          <header class="post-header">
+            <h2 class="post-title" style="display:none">{{ .Title }}</h2>
+          </header>
+          <section class="post-content">
+            {{ .Content }}
+          </section>
+        </article>
+        <div class='post-after'></div>
         </div>
       {{ end }}
     {{ end }}
