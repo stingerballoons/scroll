@@ -35,6 +35,6 @@ Charge w/standard micro USB cable.
 
 Connect via iOS, Andriod smart phones, tablets or yeah, you guessed it. An AppleWatch.
 
-## 300ft Range &nbsp;{{<icon class="fas fa-expand-alt">}}
+## 200ft Range &nbsp;{{<icon class="fas fa-expand-alt">}}
 
 Trigger from indoors or out, near or far.
