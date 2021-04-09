@@ -1,7 +1,9 @@
 ---
 title: 'Contact'
-weight: 8 
+weight: 9
 header_menu: false
+header_background: '#fff'
+content_txt_color: '#3A4145'
 ---
 
 {{< rawhtml >}}

@@ -4,4 +4,7 @@ weight: 2
 header_menu: false
 ---
 
-## Existing products out there are either expensive, single use pyrotechnics or are just uncool.
+{{< rawhtml >}}
+<h2>Existing products can be expensive or explosive single-use pyrotechnics.</h2>
+<h2>Ugh, not cool.</h2>
+{{< /rawhtml >}}

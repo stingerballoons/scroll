@@ -1,6 +1,6 @@
 ---
 title: ''
-weight: 9
+weight: 10
 header_menu: true
 header_background: '#D0B7A3'
 header_video: true

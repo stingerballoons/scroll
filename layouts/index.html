@@ -99,7 +99,7 @@ html, body {
           <header class="post-header">
             <h2 class="post-title" style="display:none">{{ .Title }}</h2>
           </header>
-          <section class="post-content">
+          <section class="post-content" style="color: {{ .Params.content_txt_color }}">
             {{ .Content }}
           </section>
         </article>

@@ -1,10 +1,11 @@
 ---
 title: 'Features'
-weight: 7
+weight: 8
+header_background: '#F49136'
 header_menu: false
 ---
 {{< rawhtml >}}
-<p>Stinger Balloons is stuffed with so many features, even a <em>T-ReX MK2</em> can't keep up with it. Here are a few standouts that will help create your wow moment.</p>
+<p>Stinger Balloons is stuffed with so many features, even a <em>T-ReX MK2</em> can't keep up with it. Here are a few standouts that will solve the above problems and help create your wow moment.</p>
 <br>
 {{< /rawhtml >}}
 
